@@ -38,6 +38,8 @@ function AppProvider({children}) {
 
     const stickList = useRef();
 
+    const [closeSmall, setCloseSmall] = useState(false);
+
     useEffect(() => {
         products.map(product => {
         product.details.map(detail => {
@@ -92,7 +94,9 @@ function AppProvider({children}) {
             showMore,
             setShowMore,
             cart,
-            setCart
+            setCart,
+            closeSmall,
+            setCloseSmall
         }}>
             {children}
         </AppContext.Provider>

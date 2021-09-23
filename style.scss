@@ -925,6 +925,10 @@ body {
     .navbar {
       padding: 1rem;
 
+      .hi {
+        display: none;
+      }
+
       .logo {
         font-size: 1.4rem;
       }
@@ -971,11 +975,46 @@ body {
 
   .products {
     grid-template-columns: 1fr;
+    overflow: auto;
 
     .products-list {
-      position: static;
-      top: 0;
+      position: fixed;
+      width: 100%;
+      top: 40%;
+      bottom: 0;
+      left: 0;
       height: auto;
+      z-index: 1000;
+      background: #fff;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      overflow: auto;
+
+      .close {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #fff;
+        color: $dark-color;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+        display: grid;
+        place-items: center;
+        font-size: 1.4rem;
+      }
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+
+      .main-products-list {
+        padding: 2.5rem 0;
+        width: 400px;
+      }
     }
 
     .products-content {
@@ -989,7 +1028,8 @@ body {
           border: 1px #eee solid;
           border-radius: 0;
           h4 {
-            width: auto;
+            width: 180px;
+            color: red;
           }
           .product-info {
             &-content {
