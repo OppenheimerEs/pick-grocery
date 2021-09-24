@@ -947,6 +947,56 @@ body {
   }
 }
 
+@media (max-width: 1500px) {
+    .products {
+      grid-template-columns: 1fr 4fr;
+
+      .products-list {
+        padding: 0 1.5rem;
+
+        .main-products-list {
+          padding: 3rem 0;
+
+          li {
+            margin-bottom: 1.2rem;
+          }
+        }
+      }
+
+      .products-content {
+        padding: 2rem 1rem;
+
+        &-cards {
+          gap: 1rem;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+          & > div {
+
+            .product-info {
+
+              .close-btn {
+                right: 20px;
+              }
+
+              .product-info-content {
+                width: 65vw;
+                height: 65vh;
+
+                .img-container {
+                  .grid-gallery {
+                    img {
+                      height: 75px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
 @media (max-width: 768px) {
   .navbar-header {
     .navbar {
