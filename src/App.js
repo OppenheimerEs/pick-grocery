@@ -15,7 +15,7 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route exact path='/offer'>
+        {/* <Route exact path='/offer'>
           <Offer />
         </Route>
         <Route exact path='/help'>
@@ -23,7 +23,7 @@ function App() {
         </Route>
         <Route path='*'>
           <Error />
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
