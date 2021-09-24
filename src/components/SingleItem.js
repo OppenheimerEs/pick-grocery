@@ -1,5 +1,4 @@
-import {useState} from 'react'
-import { useEffect } from 'react/cjs/react.development';
+import {useState, useEffect} from 'react'
 import {useGlobalContext} from '../context'
 
 function SingleItem({name, details, id}) {
@@ -14,7 +13,6 @@ function SingleItem({name, details, id}) {
     
     useEffect(() => {
         setNumber(id)
-        console.log('number : ', number, ' id : ', id);
     }, [x])
 
     return (
