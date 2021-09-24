@@ -311,7 +311,7 @@ body {
 
 .navbar-header .top-search {
   background: rgba(0, 0, 0, 0.2);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -1048,6 +1048,7 @@ body {
     position: absolute;
   }
   .products .products-content-cards > div .product-info .product-info-content {
+    position: absolute;
     width: 100%;
     top: 85%;
     height: 80vh;
