@@ -7,7 +7,7 @@ import {useGlobalContext} from '../context'
 import Products from '../components/Products'
 
 function Home() {
-    const {title, subtitle, searchInput, searchButton, isThere, setIsThere, stickList, closeSmall, setCloseSmall} = useGlobalContext();
+    const {title, subtitle, searchInput, searchButton, isThere, setIsThere, stickList, closeSmall, setCloseSmall, filterInfo} = useGlobalContext();
     const x = useRef(null);
     const y = useRef(null);
     const z = useRef(null);
@@ -59,7 +59,10 @@ function Home() {
                         <input type="text" placeholder='Search your products from here' />
                     </div>
                 </form>
-                <span onClick={() => setCloseSmall(true)}>Filter</span>
+                <div className="filter-info">
+                    <p>{filterInfo}</p>
+                    <span onClick={() => setCloseSmall(true)}>Filter</span>
+                </div>
             </header>
         </section>
 

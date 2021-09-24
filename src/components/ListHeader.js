@@ -6,7 +6,7 @@ import SingleItem from './SingleItem'
 
 function ListHeader({type, icon, details}) {
     const [showSecondList, setShowSecondList] = useState(false)
-    const {setPreciseProduct, preciseProduct, setShowMore} = useGlobalContext();
+    const {setPreciseProduct, preciseProduct, setShowMore, setFilterInfo} = useGlobalContext();
     let tmpArr = [];
 
     const linksContainerRef = useRef(null);
@@ -34,6 +34,7 @@ function ListHeader({type, icon, details}) {
         })
         setPreciseProduct(tmpArr);
         tmpArr = [];
+        setFilterInfo(type);
     }
 
     return (

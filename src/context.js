@@ -40,6 +40,8 @@ function AppProvider({children}) {
 
     const [closeSmall, setCloseSmall] = useState(false);
 
+    const [filterInfo, setFilterInfo] = useState('No category was selected') 
+
     useEffect(() => {
         products.map(product => {
         product.details.map(detail => {
@@ -96,7 +98,9 @@ function AppProvider({children}) {
             cart,
             setCart,
             closeSmall,
-            setCloseSmall
+            setCloseSmall,
+            filterInfo,
+            setFilterInfo
         }}>
             {children}
         </AppContext.Provider>

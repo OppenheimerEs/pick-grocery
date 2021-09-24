@@ -22,27 +22,43 @@ function Products() {
     useEffect(() => {
         if (closeSmall) {
             bottomList.current.style.transform = 'translateY(0)'
-            closeBtn.current.style.transform = 'translateY(0)'
-            bottomList.current.style.transition = 'transform 0.3s ease-in'
+            closeBtn.current.style.top = '34%'
+            closeBtn.current.style.transform = 'translateX(-50%)'
+            bottomList.current.style.transition = 'transform 0.5s ease'
+            closeBtn.current.style.transition = 'top 0.5s ease'
         } else {
             bottomList.current.style.transform = 'translateY(100%)'
-            closeBtn.current.style.transform = 'translateY(100%)'
-            bottomList.current.style.transition = 'transform 0.3s ease-in'
+            closeBtn.current.style.top = '100%'
+            bottomList.current.style.transition = 'transform 0.5s ease'
+            closeBtn.current.style.transition = 'top 0.5s ease'
         }
     }, [closeSmall])
 
     return (
         <section className='products'>
-                <article className='products-list' ref={bottomList}>
+            <article className='products-list large-list'>
                 <ul className='main-products-list '>
+                   {products.map(product => {
+                       return (
+                           <ListHeader key={product.id} {...product} />
+                           )
+                        })}
+                </ul>
+            </article>
+            <div className='close' ref={closeBtn} onClick={() => setCloseSmall(false)}><IoCloseOutline /></div>
+                {closeSmall && (
+                    <div className="overlay"></div>
+                )}
+            <article className='products-list bottom-list' ref={bottomList}>
+                <ul className='main-products-list bottom-list'>
                    {products.map(product => {
                        return (
                            <ListHeader key={product.id} {...product} />
                        )
                    })}
                 </ul>
-                <div className='close' ref={closeBtn} onClick={() => setCloseSmall(false)}><IoCloseOutline /></div>
             </article>
+           
             <article className="products-content">
                <div className="products-content-cards">
                    {preciseProduct.map((item, index) => {

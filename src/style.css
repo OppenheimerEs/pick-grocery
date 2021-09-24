@@ -260,6 +260,7 @@ body {
   width: 100vw;
   display: none;
   background: rgba(0, 0, 0, 0.3);
+  z-index: 5000;
 }
 
 .navbar-header .sidebar .sidebar-content {
@@ -269,7 +270,7 @@ body {
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transform: translateX(-100%);
-  transition: transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  transition: transform 0.3s ease;
 }
 
 .navbar-header .sidebar .sidebar-content .close-btn {
@@ -430,6 +431,23 @@ body {
   margin: 0 auto;
 }
 
+.main-section-phone .phone-header .filter-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-section-phone .phone-header .filter-info span {
+  color: #009e7f;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0.7rem 0;
+}
+
+.main-section-phone .phone-header .filter-info p {
+  font-size: 15px;
+}
+
 .main-section-phone .phone-header .text {
   display: flex;
   align-items: center;
@@ -488,6 +506,14 @@ body {
 .products {
   display: grid;
   grid-template-columns: 1fr 5.5fr;
+}
+
+.products .close {
+  display: none;
+}
+
+.products .products-list.bottom-list {
+  display: none;
 }
 
 .products .products-list {
@@ -616,7 +642,6 @@ body {
 
 .products .products-content-cards > div {
   background: #fff;
-  height: 400px;
   border-radius: 8px;
   cursor: pointer;
   padding: 1.5rem;
@@ -627,8 +652,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.45);
   color: #fff;
   display: flex;
@@ -945,7 +970,36 @@ body {
     grid-template-columns: 1fr;
     overflow: auto;
   }
-  .products .products-list {
+  .products .products-list.large-list {
+    display: none;
+  }
+  .products .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  .products .close {
+    display: block;
+    position: fixed;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: #0d1136;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    z-index: 1500;
+    cursor: pointer;
+  }
+  .products .products-list.bottom-list {
+    display: block;
     position: fixed;
     width: 100%;
     top: 40%;
@@ -959,33 +1013,17 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     overflow: auto;
   }
-  .products .products-list .close {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: #fff;
-    color: #0d1136;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
-    display: grid;
-    place-items: center;
-    font-size: 1.4rem;
-  }
-  .products .products-list::-webkit-scrollbar {
+  .products .products-list.bottom-list::-webkit-scrollbar {
     width: 0;
   }
-  .products .products-list .main-products-list {
+  .products .products-list.bottom-list .main-products-list.bottom-list {
     padding: 2.5rem 0;
-    width: 400px;
   }
   .products .products-content {
     padding: 0;
   }
   .products .products-content-cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0;
   }
   .products .products-content-cards > div {
@@ -994,6 +1032,38 @@ body {
   }
   .products .products-content-cards > div h4 {
     width: 180px;
-    color: red;
+  }
+  .products .products-content-cards > div .product-info {
+    overflow: auto;
+  }
+  .products .products-content-cards > div .product-info::-webkit-scrollbar {
+    width: 0;
+  }
+  .products .products-content-cards > div .product-info .close-btn {
+    top: 39.5%;
+    left: 50%;
+  }
+  .products .products-content-cards > div .product-info .product-info-content {
+    width: 100%;
+    top: 85%;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .products .products-content-cards > div .product-info .product-info-content .img-container,
+  .products .products-content-cards > div .product-info .product-info-content .content {
+    width: 100%;
+    height: 45%;
+  }
+  .products .products-content-cards > div .product-info .product-info-content .img-container .grid-gallery {
+    margin-bottom: 1rem;
+  }
+  .products .products-content-cards > div .product-info .product-info-content .img-container .grid-gallery img {
+    width: 80%;
+    height: 60px;
+  }
+  .products .products-content-cards > div .product-info .product-info-content .content .description {
+    margin-top: 1rem;
   }
 }
