@@ -253,7 +253,7 @@ body {
 }
 
 .navbar-header .sidebar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
@@ -316,6 +316,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 200;
 }
 
 .navbar-header .top-search .top-search-content {
@@ -997,6 +998,7 @@ body {
     font-size: 1.4rem;
     z-index: 1500;
     cursor: pointer;
+    user-select: none;
   }
   .products .products-list.bottom-list {
     display: block;
@@ -1042,6 +1044,8 @@ body {
   .products .products-content-cards > div .product-info .close-btn {
     top: 39.5%;
     left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
   }
   .products .products-content-cards > div .product-info .product-info-content {
     width: 100%;
