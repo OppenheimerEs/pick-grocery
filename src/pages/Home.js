@@ -48,7 +48,7 @@ function Home() {
                 <div className="text">
                     <p>Groceries Delivered in 90 Minutes</p>
                     <ul>
-                        <li>Grocery</li>
+                        <li>Groceryy</li>
                     </ul>
                 </div>
                 <form>
