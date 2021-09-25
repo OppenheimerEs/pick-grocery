@@ -1,4 +1,4 @@
-# Pick Grocery -- e-Commerce
+# Pick Grocery e-Commerce
 
 ## Welcome To Pick Grocery
 This is my first attempt to create the front end for an e-commerce website in the modern way, the design credits go to PickBazar. <br>
