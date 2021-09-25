@@ -1715,7 +1715,7 @@ export const data = [
                         deal: 10,
                     },
                     {
-                        name: 'Morrisons 6 Medium Free Range Golden YolK eGGS',
+                        name: 'Morrisons 6 Medium Free Range Golden YolK Eggs',
                         img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg'],
                         price: 4,
                         available: 1,
