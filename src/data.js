@@ -664,7 +664,7 @@ export const data = [
                     },
                     {
                         name: 'Kirkland Mix Nuts',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kirkland_mixed_nuts.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kirkland_mixed_nuts.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kirkland_mixed_nuts.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kirkland_mixed_nuts.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kirkland_mixed_nuts.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -672,7 +672,7 @@ export const data = [
                     },
                     {
                         name: 'Natural Nuts',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_cashewnut.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/natural_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_cashewnut.jpg'],
                         price: 10,
                         available: 5,
                         type: 'lb',
@@ -680,14 +680,14 @@ export const data = [
                     },
                     {
                         name: 'Planter Cashewnut',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/planter_cashewnut.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/planter_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planter_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planter_cashewnut.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planter_cashewnut.jpg'],
                         price: 10,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Planter Dry Roasted',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_dry_roasted.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/planters_dry_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_dry_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_dry_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_dry_roasted.jpg'],
                         price: 10,
                         available: 5,
                         type: 'lb',
@@ -695,7 +695,7 @@ export const data = [
                     },
                     {
                         name: 'Planter Honey Roasted',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_honey_roasted.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/planters_honey_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_honey_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_honey_roasted.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/planters_honey_roasted.jpg'],
                         price: 10,
                         available: 5,
                         type: 'lb',
@@ -708,35 +708,35 @@ export const data = [
                 details: [
                     {
                         name: 'Bambino Macaroni',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_macaroni.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_macaroni.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_macaroni.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_macaroni.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_macaroni.jpg'],
                         price: 15,
                         available: 8,
                         type: 'lb'
                     },
                     {
                         name: 'Bambino Premium Pasta',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_premium_pasta.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_premium_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_premium_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_premium_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bambino_premium_pasta.jpg'],
                         price: 18,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Batchelors Pasta N Sauce Cheese',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/batchelors_pasta_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/batchelors_pasta_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/batchelors_pasta_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/batchelors_pasta_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/batchelors_pasta_sauce.jpg'],
                         price: 8,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Borges Pasta',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/borges-pasta.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/borges-pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/borges-pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/borges-pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/borges-pasta.jpg'],
                         price: 12,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Pasta Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Cheese-&-Broccoli-Pasta-&-Sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Cheese-&-Broccoli-Pasta-&-Sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Cheese-&-Broccoli-Pasta-&-Sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Cheese-&-Broccoli-Pasta-&-Sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Cheese-&-Broccoli-Pasta-&-Sauce.jpg'],
                         price: 15,
                         available: 3,
                         type: 'lb',
@@ -744,7 +744,7 @@ export const data = [
                     },
                     {
                         name: 'Sun Remo Chicken Flavour Pasta',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/sunremo_chicken_curry_pasta.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/sunremo_chicken_curry_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sunremo_chicken_curry_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sunremo_chicken_curry_pasta.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sunremo_chicken_curry_pasta.jpg'],
                         price: 15,
                         available: 3,
                         type: 'lb',
@@ -752,7 +752,7 @@ export const data = [
                     },
                     {
                         name: 'Knorr Pastaria',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_pastaria.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_pastaria.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_pastaria.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_pastaria.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_pastaria.jpg'],
                         price: 15,
                         available: 3,
                         type: 'lb',
@@ -765,35 +765,35 @@ export const data = [
                 details: [
                     {
                         name: 'Allegro Bbq Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/allegro_bbq_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/allegro_bbq_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/allegro_bbq_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/allegro_bbq_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/allegro_bbq_sauce.jpg'],
                         price: 10,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Asin Zing Chili Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/asain_zing_chili.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/asain_zing_chili.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/asain_zing_chili.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/asain_zing_chili.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/asain_zing_chili.jpg'],
                         price: 8,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Crunch Hot Chili Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/crunch_hot_chili_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/crunch_hot_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crunch_hot_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crunch_hot_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crunch_hot_chili_sauce.jpg'],
                         price: 6,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Felix Chili Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/felix_chili_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/felix_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/felix_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/felix_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/felix_chili_sauce.jpg'],
                         price: 6,
                         available: 6,
                         type: 'lb'
                     },
                     {
                         name: 'Heinz Chili Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/heinz_chili_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/heinz_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/heinz_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/heinz_chili_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/heinz_chili_sauce.jpg'],
                         price: 8,
                         available: 7,
                         type: 'lb',
@@ -801,7 +801,7 @@ export const data = [
                     },
                     {
                         name: 'Kosmos Bbq Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kosmos_bbq.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kosmos_bbq.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kosmos_bbq.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kosmos_bbq.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kosmos_bbq.jpg'],
                         price: 8,
                         available: 7,
                         type: 'lb',
@@ -809,14 +809,14 @@ export const data = [
                     },
                     {
                         name: 'Taco Bell Diablo Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg'],
                         price: 8,
                         available: 7,
                         type: 'lb',
                     },
                     {
                         name: 'Taco Bell Fire Sauce',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_fire_sauce.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_fire_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_fire_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_fire_sauce.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_fire_sauce.jpg'],
                         price: 8,
                         available: 7,
                         type: 'lb',
@@ -829,35 +829,35 @@ export const data = [
                 details: [
                     {
                         name: 'Traditional Bak Kut Teh Soup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/bak_kuh_teh.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/bak_kuh_teh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bak_kuh_teh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bak_kuh_teh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/bak_kuh_teh.jpg'],
                         price: 3,
                         available: 12,
                         type: 'lb'
                     },
                     {
                         name: 'Chings Mix Vegetable Soup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/chings_mixvegsoup.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/chings_mixvegsoup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chings_mixvegsoup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chings_mixvegsoup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chings_mixvegsoup.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Dashi Chicken Corn Soup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dashi_chicken_corn.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dashi_chicken_corn.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dashi_chicken_corn.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dashi_chicken_corn.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dashi_chicken_corn.jpg'],
                         price: 1,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Knorr Thai Vegetable Soup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_thai_vegetable.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_thai_vegetable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_thai_vegetable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_thai_vegetable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/knorr_thai_vegetable.jpg'],
                         price: 1.5,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Rempah Sup Soup Mix',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/rempah_sup.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/rempah_sup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/rempah_sup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/rempah_sup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/rempah_sup.jpg'],
                         price: 3,
                         available: 2,
                         type: 'lb',
@@ -879,7 +879,7 @@ export const data = [
                 details: [
                     {
                         name: 'Avo Derm Grain Free',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/grain_free.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/grain_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/grain_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/grain_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/grain_free.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb',
@@ -887,14 +887,14 @@ export const data = [
                     },
                     {
                         name: 'Hills Science Diet',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/hills_science_diet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/hills_science_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hills_science_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hills_science_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hills_science_diet.jpg'],
                         price: 25,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Instinct Ultimate Protien',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/instinct_the_raw.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/instinct_the_raw.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/instinct_the_raw.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/instinct_the_raw.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/instinct_the_raw.jpg'],
                         price: 20,
                         available: 4,
                         type: 'lb',
@@ -902,14 +902,14 @@ export const data = [
                     },
                     {
                         name: 'Natural Balance L.I.D',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_balance.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/natural_balance.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_balance.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_balance.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/natural_balance.jpg'],
                         price: 20,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Hills Urinary Care',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/prescription_diet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/prescription_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/prescription_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/prescription_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/prescription_diet.jpg'],
                         price: 20,
                         available: 4,
                         type: 'lb',
@@ -917,14 +917,14 @@ export const data = [
                     },
                     {
                         name: 'Pro Diet Complete Balance',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pro_diet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pro_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pro_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pro_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pro_diet.jpg'],
                         price: 25,
                         available: 6,
                         type: 'lb',
                     },
                     {
                         name: 'Purina Pro Plan Veterinary Diets',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/purina_pro_plan.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/purina_pro_plan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/purina_pro_plan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/purina_pro_plan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/purina_pro_plan.jpg'],
                         price: 22.5,
                         available: 6,
                         type: 'lb',
@@ -932,7 +932,7 @@ export const data = [
                     },
                     {
                         name: 'Special Kitty Gourmet',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/special_kitty.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/special_kitty.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/special_kitty.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/special_kitty.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/special_kitty.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb',
@@ -946,14 +946,14 @@ export const data = [
                details: [
                     {
                         name: 'Black Hawk Adult Lamb Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_adult_all_breeds_lamb&rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_adult_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_adult_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_adult_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_adult_all_breeds_lamb&rice.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb'
                     },
                     {
                         name: 'Black Hawk Puppy Lamb Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_all_breeds_lamb&rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_all_breeds_lamb&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_all_breeds_lamb&rice.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb',
@@ -961,7 +961,7 @@ export const data = [
                     },
                     {
                         name: 'Black Hawk Puppy Chicken Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_large_breedchicken&rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_large_breedchicken&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_large_breedchicken&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_large_breedchicken&rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_black_hawk_puppy_large_breedchicken&rice.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb',
@@ -969,21 +969,21 @@ export const data = [
                     },
                     {
                         name: 'Blain S Farm Fleet',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blain's_farm&fleet.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blain's_farm&fleet.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blain's_farm&fleet.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blain's_farm&fleet.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blain's_farm&fleet.jpg"],
                         price: 25,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Blue Wilderness Chicken Recepie',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blue_wilderness.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blue_wilderness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blue_wilderness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blue_wilderness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_blue_wilderness.jpg"],
                         price: 25,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Whole Hearted Beef Pea Recepie',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_beef&pea.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_beef&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_beef&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_beef&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_beef&pea.jpg"],
                         price: 40,
                         available: 8,
                         type: 'lb',
@@ -991,14 +991,14 @@ export const data = [
                     },
                     {
                         name: 'Whole Hearted Salmon Pea Recepie',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_salmon&pea.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_salmon&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_salmon&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_salmon&pea.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_whole_hearted_salmon&pea.jpg"],
                         price: 40,
                         available: 8,
                         type: 'lb',
                     },
                     {
                         name: 'Zenith Lamb Brown Rice',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_zenith.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_zenith.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_zenith.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_zenith.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dog_food_zenith.jpg"],
                         price: 40,
                         available: 8,
                         type: 'lb',
@@ -1011,14 +1011,14 @@ export const data = [
                 details: [
                     {
                         name: 'Applaws Grain Free',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_applaws_adult_cat_chicken.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_applaws_adult_cat_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_applaws_adult_cat_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_applaws_adult_cat_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_applaws_adult_cat_chicken.jpg'],
                         price: 40,
                         available: 8,
                         type: 'lb'
                     },
                     {
                         name: 'Authority Chicken Rice Formula',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_authority_real_chicken.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_authority_real_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_authority_real_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_authority_real_chicken.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_authority_real_chicken.jpg'],
                         price: 30,
                         available: 5,
                         type: 'lb',
@@ -1026,21 +1026,21 @@ export const data = [
                     },
                     {
                         name: 'Hills Ideal Balance',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_ideal_balance_over1year_kitten.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_ideal_balance_over1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_ideal_balance_over1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_ideal_balance_over1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_ideal_balance_over1year_kitten.jpg"],
                         price: 30,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Hills Science Diet',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_science_diet_upto1year_kitten.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_science_diet_upto1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_science_diet_upto1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_science_diet_upto1year_kitten.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_hill's_science_diet_upto1year_kitten.jpg"],
                         price: 30,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'lams Proactive Health',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_iamso_upto1year.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_iamso_upto1year.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_iamso_upto1year.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_iamso_upto1year.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_iamso_upto1year.jpg"],
                         price: 20,
                         available: 5,
                         type: 'lb',
@@ -1048,21 +1048,21 @@ export const data = [
                     },
                     {
                         name: 'Instinct Original Grain Free',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_instinct_chicken.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_instinct_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_instinct_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_instinct_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_instinct_chicken.jpg"],
                         price: 20,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Merrick Purrfect Bistro Grain Free',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_merrick.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_merrick.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_merrick.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_merrick.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_merrick.jpg"],
                         price: 25,
                         available: 5,
                         type: 'lb',
                     },
                     {
                         name: 'Purina Healthy Kitten Formula',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_one.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_one.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_one.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_one.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_one.jpg"],
                         price: 25,
                         available: 5,
                         type: 'lb',
@@ -1070,21 +1070,21 @@ export const data = [
                     },
                     {
                         name: 'Purina Pro Plan',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_proplan.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_proplan.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_proplan.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_proplan.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_purina_proplan.jpg"],
                         price: 35,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Wellness Complete Health',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_wellness.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_wellness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_wellness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_wellness.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_wellness.jpg"],
                         price: 35,
                         available: 6,
                         type: 'lb',
                     },
                     {
                         name: 'Whiskas',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_whiskas_real_chicken.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_whiskas_real_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_whiskas_real_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_whiskas_real_chicken.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/kitten_food_whiskas_real_chicken.jpg"],
                         price: 35,
                         available: 4,
                         type: 'lb',
@@ -1097,28 +1097,28 @@ export const data = [
                 details: [
                     {
                         name: 'Black Winter Cap',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_black_winter_cap.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_black_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_black_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_black_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_black_winter_cap.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Brown White Winter Cap',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_brown&white_winter_cap.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_brown&white_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_brown&white_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_brown&white_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_brown&white_winter_cap.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Batman Cap',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume1.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Skelton Cap',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume2.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_costume2.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)',
@@ -1126,7 +1126,7 @@ export const data = [
                     },
                     {
                         name: 'Ash Jacket',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_ash.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_ash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_ash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_ash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_ash.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
@@ -1134,14 +1134,14 @@ export const data = [
                     },
                     {
                         name: 'Red Jacket',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_red.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_red.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_red.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_red.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_jacket_red.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Cat Bed Brown',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed1.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
@@ -1149,42 +1149,42 @@ export const data = [
                     },
                     {
                         name: 'Cat Bed Grey',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed2.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed2.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed2.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Dog Bed Brown Red',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed4.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed4.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed4.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed4.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_pet_bed4.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Red White Stripped Sweater',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_christmas_sweater.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_christmas_sweater.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_christmas_sweater.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_christmas_sweater.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_christmas_sweater.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Red White Jupmer',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_jumper1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_jumper1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_jumper1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_jumper1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red&white_jumper1.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Red Winter Cap',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red_crhistmas_winter_cap.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red_crhistmas_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red_crhistmas_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red_crhistmas_winter_cap.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_red_crhistmas_winter_cap.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Rainbow Tie',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pet_accessories_tie.jpg'],
                         price: 1.5,
                         available: 1,
                         type: 'pc(s)',
@@ -1206,7 +1206,7 @@ export const data = [
                 details: [
                     {
                         name: 'Ozmo Air Fabric Freshner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_acana_ozmo.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_acana_ozmo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_acana_ozmo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_acana_ozmo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_acana_ozmo.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1214,56 +1214,56 @@ export const data = [
                     },
                     {
                         name: 'Air Wick Essential Oils',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Ambi Pur Air',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_ambipur_air_sweet_citrus&zest.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_ambipur_air_sweet_citrus&zest.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_ambipur_air_sweet_citrus&zest.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_ambipur_air_sweet_citrus&zest.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_ambipur_air_sweet_citrus&zest.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Broadwalk Air Freshner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_boardwalk_mango.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_boardwalk_mango.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_boardwalk_mango.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_boardwalk_mango.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_boardwalk_mango.jpg'],
                         price: 15,
                         available: 0.5,
                         type: 'lb',
                     },
                     {
                         name: 'Febreze Air Bora Bora Waters',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_bora_bora.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_bora_bora.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_bora_bora.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_bora_bora.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_bora_bora.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Febreze Air Effecrs',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_effects.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_effects.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_effects.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_effects.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_effects.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Febreze Air Hawaiian',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_hawaiian.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_hawaiian.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_hawaiian.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_hawaiian.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_febreze_air_hawaiian.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Glade Blue Odssey',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_blue_odyssey.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_blue_odyssey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_blue_odyssey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_blue_odyssey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_blue_odyssey.jpg'],
                         price: 18,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Glade Clean Linen',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_clean_linen.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_clean_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_clean_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_clean_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_sc_johnson_glade_clean_linen.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1271,7 +1271,7 @@ export const data = [
                     },
                     {
                         name: 'Vibrant Air Freshner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_vibrant_linen.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_vibrant_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_vibrant_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_vibrant_linen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_vibrant_linen.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1285,7 +1285,7 @@ export const data = [
                details: [
                    {
                         name: 'Ajax Floor Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ajax.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ajax.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ajax.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ajax.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ajax.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1293,14 +1293,14 @@ export const data = [
                     },
                    {
                         name: 'Astonish Oven Power Spray',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_astonish.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_astonish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_astonish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_astonish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_astonish.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                    {
                         name: 'Bio Toilet Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bio.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bio.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bio.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bio.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bio.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
@@ -1308,21 +1308,21 @@ export const data = [
                     },
                    {
                         name: 'Bona Hardwood Floor Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bona.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bona.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bona.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bona.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_bona.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                    {
                         name: 'Ever Spring Glass Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ever_spring.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ever_spring.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ever_spring.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ever_spring.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_ever_spring.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                    {
                         name: 'Glitz Outdoor Glass Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_glass_cleaner.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_glass_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_glass_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_glass_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_glass_cleaner.jpg'],
                         price: 40,
                         available: 1,
                         type: 'pc(s)',
@@ -1330,7 +1330,7 @@ export const data = [
                     },
                    {
                         name: 'Glitz Bbq Stainless Steel Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_steel_cleaner.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_steel_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_steel_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_steel_cleaner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_glitz_steel_cleaner.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1338,7 +1338,7 @@ export const data = [
                     },
                    {
                         name: 'Method All Purpose Cleaner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_method.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_method.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_method.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_method.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/cleaning_supply_method.jpg'],
                         price: 20,
                         available: 1,
                         type: 'pc(s)',
@@ -1351,14 +1351,14 @@ export const data = [
                 details: [
                     {
                         name: 'Dawn',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_la_faune.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_la_faune.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_la_faune.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_la_faune.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_la_faune.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Dawn Escapes',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_new_zealand_spring_scent.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_new_zealand_spring_scent.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_new_zealand_spring_scent.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_new_zealand_spring_scent.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_dawn_new_zealand_spring_scent.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
@@ -1366,14 +1366,14 @@ export const data = [
                     },
                     {
                         name: 'Fairy Lemon',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_fairy_lemon.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_fairy_lemon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_fairy_lemon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_fairy_lemon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_fairy_lemon.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Finish All In One',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_finish.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_finish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_finish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_finish.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_finish.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
@@ -1381,21 +1381,21 @@ export const data = [
                     },
                     {
                         name: 'Lemi Shine',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_lemi_shine.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_lemi_shine.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_lemi_shine.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_lemi_shine.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_lemi_shine.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Seventh Generation',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_seventh_generation_free&clear.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_seventh_generation_free&clear.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_seventh_generation_free&clear.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_seventh_generation_free&clear.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_seventh_generation_free&clear.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: "Winni's Ammorbidente",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_winni's_fiori_bianchi.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_winni's_fiori_bianchi.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_winni's_fiori_bianchi.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_winni's_fiori_bianchi.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/dishwasher_winni's_fiori_bianchi.jpg"],
                         price: 6.5,
                         available: 1,
                         type: 'pc(s)',
@@ -1408,7 +1408,7 @@ export const data = [
                 details: [
                     {
                         name: 'Camp Cutlery',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_camp_cutlery.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_camp_cutlery.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_camp_cutlery.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_camp_cutlery.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_camp_cutlery.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
@@ -1416,7 +1416,7 @@ export const data = [
                     },
                     {
                         name: 'Dinner Spoon',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_dinner_spoons.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_dinner_spoons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_dinner_spoons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_dinner_spoons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_dinner_spoons.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
@@ -1424,35 +1424,35 @@ export const data = [
                     },
                     {
                         name: 'Ice Cream Scoop',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_ice_cream_scoop.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_ice_cream_scoop.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_ice_cream_scoop.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_ice_cream_scoop.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_ice_cream_scoop.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Kitchen Tools',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_kitchen_tools.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_kitchen_tools.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_kitchen_tools.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_kitchen_tools.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_kitchen_tools.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Mesh Strainers',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_mash_strainers.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_mash_strainers.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_mash_strainers.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_mash_strainers.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_mash_strainers.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Skimmers',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_skimmer.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_skimmer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_skimmer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_skimmer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_skimmer.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Solid Turner',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_solid_turner.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_solid_turner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_solid_turner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_solid_turner.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kitchen_accessories_solid_turner.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)',
@@ -1465,14 +1465,14 @@ export const data = [
                 details: [
                     {
                         name: 'Woolite Gentle Cycle',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_woolite.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_woolite.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_woolite.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_woolite.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_woolite.jpg'],
                         price: 30,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Tide Downy',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_tide.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_tide.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_tide.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_tide.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_tide.jpg'],
                         price: 30,
                         available: 4,
                         type: 'lb',
@@ -1480,7 +1480,7 @@ export const data = [
                     },
                     {
                         name: 'Seventh Generation Sensative Skin',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_seventh_generation.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_seventh_generation.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_seventh_generation.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_seventh_generation.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_seventh_generation.jpg'],
                         price: 30,
                         available: 4,
                         type: 'lb',
@@ -1488,63 +1488,63 @@ export const data = [
                     },
                     {
                         name: 'Safe Wash',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_safe_wash.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_safe_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_safe_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_safe_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_safe_wash.jpg'],
                         price: 30,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Purex Oxi',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_purex.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_purex.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_purex.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_purex.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_purex.jpg'],
                         price: 25,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Persil Power Gel',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_persil.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_persil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_persil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_persil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_persil.jpg'],
                         price: 35,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Home Made Simple',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_home_made_simple.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_home_made_simple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_home_made_simple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_home_made_simple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_home_made_simple.jpg'],
                         price: 18,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Ecos',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_ecos.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_ecos.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_ecos.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_ecos.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_ecos.jpg'],
                         price: 28,
                         available: 4,
                         type: 'lb',
                     },
                     {
                         name: 'Daz',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_daz.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_daz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_daz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_daz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_daz.jpg'],
                         price: 32,
                         available: 6,
                         type: 'lb',
                     },
                     {
                         name: 'Chomel Baby Laundry Detergent',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chomel.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chomel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chomel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chomel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chomel.jpg'],
                         price: 50,
                         available: 6,
                         type: 'lb',
                     },
                     {
                         name: 'Chicco Baby Laundry Detergent',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chicco.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chicco.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chicco.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chicco.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_chicco.jpg'],
                         price: 48,
                         available: 6,
                         type: 'lb',
                     },
                     {
                         name: 'Babyhug Baby Laundry Detergent',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_babyhug.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_babyhug.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_babyhug.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_babyhug.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/laundry_products_babyhug.jpg'],
                         price: 40,
                         available: 6,
                         type: 'lb',
@@ -1558,14 +1558,14 @@ export const data = [
                 details: [
                     {
                         name: 'Doff Insect Killer',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_doff.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_doff.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_doff.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_doff.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_doff.jpg'],
                         price: 10,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Homepest Control',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_eco_deffence_home_pest_control.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_eco_deffence_home_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_eco_deffence_home_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_eco_deffence_home_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_eco_deffence_home_pest_control.jpg'],
                         price: 15,
                         available: 2,
                         type: 'lb',
@@ -1573,28 +1573,28 @@ export const data = [
                     },
                     {
                         name: 'Professional Moth Killer',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_kritterkill.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_kritterkill.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_kritterkill.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_kritterkill.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_kritterkill.jpg'],
                         price: 12,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Naturally Green No More Bugs',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_naturally_green.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_naturally_green.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_naturally_green.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_naturally_green.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_naturally_green.jpg'],
                         price: 18,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Raid Ant & Roach Barrier',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_sc_johnson_raid.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_sc_johnson_raid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_sc_johnson_raid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_sc_johnson_raid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_sc_johnson_raid.jpg'],
                         price: 18,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Wondercide Indoor Pest Control',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_wondercide_indoor_pest_control.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_wondercide_indoor_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_wondercide_indoor_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_wondercide_indoor_pest_control.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pest_control_wondercide_indoor_pest_control.jpg'],
                         price: 20,
                         available: 2,
                         type: 'lb',
@@ -1615,14 +1615,14 @@ export const data = [
                 details: [
                     {
                         name: 'Barney Butter',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_barney.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/butter_barney.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_barney.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_barney.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_barney.jpg'],
                         price: 8,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Kirkland Signature',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_kirkland.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/butter_kirkland.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_kirkland.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_kirkland.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/butter_kirkland.jpg'],
                         price: 9,
                         available: 1,
                         type: 'pc(s)',
@@ -1630,14 +1630,14 @@ export const data = [
                     },
                     {
                         name: "Nature's Tattva Shea Butter",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nature's_tattva.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nature's_tattva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nature's_tattva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nature's_tattva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nature's_tattva.jpg"],
                         price: 9,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: "Nikki's Coconut Butter",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nikki's.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nikki's.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nikki's.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nikki's.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_nikki's.jpg"],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
@@ -1645,21 +1645,21 @@ export const data = [
                     },
                     {
                         name: "Tnuva Salted Butter",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tnuva.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tnuva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tnuva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tnuva.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tnuva.jpg"],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: "Tru Nut Powdered Peanut Butter",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tru_nut.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tru_nut.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tru_nut.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tru_nut.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_tru_nut.jpg"],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: "Whole Earth Crunchy Peanut Butter",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_whole_earth.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/butter_whole_earth.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_whole_earth.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_whole_earth.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/butter_whole_earth.jpg"],
                         price: 10,
                         available: 1,
                         type: 'pc(s)',
@@ -1672,14 +1672,14 @@ export const data = [
                 details: [
                     {
                         name: 'Cavanagh Free Range Eggs',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cavanagh.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cavanagh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cavanagh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cavanagh.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cavanagh.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Clarence Court 6 Free Range Eggs',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_clarenece_court.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_clarenece_court.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_clarenece_court.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_clarenece_court.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_clarenece_court.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)',
@@ -1687,28 +1687,28 @@ export const data = [
                     },
                     {
                         name: 'Cp Omega',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cp.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_cp.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Freshlay Golden Yolks',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_freshlay_golden_yolks.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_freshlay_golden_yolks.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_freshlay_golden_yolks.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_freshlay_golden_yolks.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_freshlay_golden_yolks.jpg'],
                         price: 2.5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Golden Cage Free',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_gold_hen.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_gold_hen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_gold_hen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_gold_hen.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_gold_hen.jpg'],
                         price: 2.5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Happy Egg Organic',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_happy_egg_organic.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_happy_egg_organic.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_happy_egg_organic.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_happy_egg_organic.jpg','https://s3.amazonaws.com/redqteam.com/pickbazar/egg_happy_egg_organic.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -1716,7 +1716,7 @@ export const data = [
                     },
                     {
                         name: 'Morrisons 6 Medium Free Range Golden YolK eGGS',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_morrisons.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -1724,7 +1724,7 @@ export const data = [
                     },
                     {
                         name: 'Nutri Plus Telur Omega3',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_nutri_plus_telur_kampang_omega3.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/egg_nutri_plus_telur_kampang_omega3.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_nutri_plus_telur_kampang_omega3.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_nutri_plus_telur_kampang_omega3.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/egg_nutri_plus_telur_kampang_omega3.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -1737,7 +1737,7 @@ export const data = [
                details: [
                     {
                         name: 'Arla Lacto Free Semi Skimmed Milk',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_lacto_free.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_lacto_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_lacto_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_lacto_free.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_lacto_free.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
@@ -1745,35 +1745,35 @@ export const data = [
                     },
                     {
                         name: 'Arla All Natural Milk Goodness Low Fat',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_low_fat1.5.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_low_fat1.5.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_low_fat1.5.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_low_fat1.5.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_arla_low_fat1.5.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Magnolia Fresh Milk',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_f&n_magnolia.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_f&n_magnolia.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_f&n_magnolia.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_f&n_magnolia.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_f&n_magnolia.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Greenfields Chocolate Malt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_greenfields_choco_malt_flavoured.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_greenfields_choco_malt_flavoured.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_greenfields_choco_malt_flavoured.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_greenfields_choco_malt_flavoured.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_greenfields_choco_malt_flavoured.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Heritage Special Long Life Milk',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Lactaid',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_lactaid.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_lactaid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_lactaid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_lactaid.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_lactaid.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1781,7 +1781,7 @@ export const data = [
                     },
                     {
                         name: 'Living Planet Organic Dairy Milk',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_living_planet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_living_planet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_living_planet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_living_planet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_living_planet.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1800,14 +1800,14 @@ export const data = [
                 details: [
                     {
                         name: 'Scape Milk Powder',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_scape.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_scape.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_scape.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_scape.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_scape.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Natural Foods Organic Coconut Milk Powder',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_z_natural_foods.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_z_natural_foods.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_z_natural_foods.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_z_natural_foods.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_z_natural_foods.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1815,28 +1815,28 @@ export const data = [
                     },
                     {
                         name: 'Param Premium Milk Powder',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_param.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_param.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_param.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_param.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_param.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Nestle Nido',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_nestle_nido_900gram.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_nestle_nido_900gram.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_nestle_nido_900gram.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_nestle_nido_900gram.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_nestle_nido_900gram.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Milgro',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_milgro.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_milgro.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_milgro.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_milgro.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_milgro.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Lifestyle Soya Milk Powder',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_lifestyle_food.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_lifestyle_food.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_lifestyle_food.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_lifestyle_food.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_lifestyle_food.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1844,7 +1844,7 @@ export const data = [
                     },
                     {
                         name: 'Goldmilys Instant Milk Powder',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_goldmilys.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_goldmilys.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_goldmilys.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_goldmilys.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/powder_milk_goldmilys.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
@@ -1857,14 +1857,14 @@ export const data = [
                 details: [
                     {
                         name: 'Nammilk Greek Style',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_cream_nammilk.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/milk_cream_nammilk.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_cream_nammilk.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_cream_nammilk.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/milk_cream_nammilk.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Astro Original',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_balkan.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_balkan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_balkan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_balkan.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_balkan.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
@@ -1872,49 +1872,49 @@ export const data = [
                     },
                     {
                         name: 'Astro Bio Best',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_bio_best.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_bio_best.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_bio_best.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_bio_best.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_astro_bio_best.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Chonani',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Chonani Vanilla Blended',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Dannon Strawberry',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_strawberry.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_strawberry.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_strawberry.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_strawberry.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_strawberry.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Dannon Vanilla',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_vanilla.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_dannon_vanilla.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Marigold Yogourt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_marigold.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_marigold.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_marigold.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_marigold.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_marigold.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Stony Field Vanilla',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_stony_field_vanilla_fudge_swirl.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_stony_field_vanilla_fudge_swirl.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_stony_field_vanilla_fudge_swirl.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_stony_field_vanilla_fudge_swirl.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_stony_field_vanilla_fudge_swirl.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1936,7 +1936,7 @@ export const data = [
                 details: [
                     {
                         name: '1 2 3 Vegetable Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_1_2_3_vegitable.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_1_2_3_vegitable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_1_2_3_vegitable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_1_2_3_vegitable.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_1_2_3_vegitable.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -1944,7 +1944,7 @@ export const data = [
                     },
                     {
                         name: 'Clover Valley Vegetable Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_clover_valley.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_clover_valley.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_clover_valley.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_clover_valley.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_clover_valley.jpg'],
                         price: 8,
                         available: 4,
                         type: 'lb',
@@ -1952,42 +1952,42 @@ export const data = [
                     },
                     {
                         name: 'Daisy Corn Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_daisy.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_daisy.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_daisy.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_daisy.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_daisy.jpg'],
                         price: 8,
                         available: 3,
                         type: 'lb',
                     },
                     {
                         name: 'Eva Corn Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg'],
                         price: 8,
                         available: 3,
                         type: 'lb',
                     },
                     {
                         name: 'Goya Extra Virgin Olive Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_goya.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_goya.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_goya.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_goya.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_goya.jpg'],
                         price: 10,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Naturel Premium Sunflower Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_natural.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_natural.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_natural.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_natural.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_natural.jpg'],
                         price: 8,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'San Lucas Corn Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_san_lucas.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_san_lucas.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_san_lucas.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_san_lucas.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_san_lucas.jpg'],
                         price: 7,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Sunfoil Sunflower Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_sunfoil.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/oil_sunfoil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_sunfoil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_sunfoil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/oil_sunfoil.jpg'],
                         price: 9,
                         available: 2,
                         type: 'lb',
@@ -2000,21 +2000,21 @@ export const data = [
                 details: [
                     {
                         name: 'Chef Choice Bamboo Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/chefa_choice_bamboo_rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/chefa_choice_bamboo_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chefa_choice_bamboo_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chefa_choice_bamboo_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chefa_choice_bamboo_rice.jpg'],
                         price: 9,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Everyday Essentials Golden Vegetable Savoury Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/everyday_essentials_Golden_Vegetable_Savoury_Rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/everyday_essentials_Golden_Vegetable_Savoury_Rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/everyday_essentials_Golden_Vegetable_Savoury_Rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/everyday_essentials_Golden_Vegetable_Savoury_Rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/everyday_essentials_Golden_Vegetable_Savoury_Rice.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Hulas Premium Basmati Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/hulas_premium_basmati_rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/hulas_premium_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hulas_premium_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hulas_premium_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/hulas_premium_basmati_rice.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -2022,7 +2022,7 @@ export const data = [
                     },
                     {
                         name: 'Jasmine Long Grain Fragrant Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Iberia_Long_Grain_Enriched_Fragrant_Rice_18_lbs.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Iberia_Long_Grain_Enriched_Fragrant_Rice_18_lbs.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Iberia_Long_Grain_Enriched_Fragrant_Rice_18_lbs.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Iberia_Long_Grain_Enriched_Fragrant_Rice_18_lbs.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Iberia_Long_Grain_Enriched_Fragrant_Rice_18_lbs.jpg'],
                         price: 40,
                         available: 20,
                         type: 'lb',
@@ -2030,14 +2030,14 @@ export const data = [
                     },
                     {
                         name: 'India Gate Basmati Rice',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/india_gate_basmati_rice.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/india_gate_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/india_gate_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/india_gate_basmati_rice.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/india_gate_basmati_rice.jpg'],
                         price: 40,
                         available: 20,
                         type: 'lb',
                     },
                     {
                         name: 'Natures Gift Basmati Rice',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/nature's_gift_basmati_rice.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/nature's_gift_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/nature's_gift_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/nature's_gift_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/nature's_gift_basmati_rice.jpg"],
                         price: 20,
                         available: 10,
                         type: 'lb',
@@ -2045,14 +2045,14 @@ export const data = [
                     },
                     {
                         name: 'Seeds Of Change Brown Basmati Rice',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/seeds_of_change_brown_basmati_rice.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/seeds_of_change_brown_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/seeds_of_change_brown_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/seeds_of_change_brown_basmati_rice.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/seeds_of_change_brown_basmati_rice.jpg"],
                         price: 5,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Tai Ping Sushi Rice',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/tai_ping_Sushi_Rice_1kg.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/tai_ping_Sushi_Rice_1kg.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/tai_ping_Sushi_Rice_1kg.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/tai_ping_Sushi_Rice_1kg.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/tai_ping_Sushi_Rice_1kg.jpg"],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -2065,14 +2065,14 @@ export const data = [
                 details: [
                     {
                         name: 'Clover Valley Sea Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/clover_valley_sea_salt_grinder.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/clover_valley_sea_salt_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/clover_valley_sea_salt_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/clover_valley_sea_salt_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/clover_valley_sea_salt_grinder.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Gathering Place Sea Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/gathering_place_sea_salt_100g_grinder.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/gathering_place_sea_salt_100g_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gathering_place_sea_salt_100g_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gathering_place_sea_salt_100g_grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gathering_place_sea_salt_100g_grinder.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)',
@@ -2080,14 +2080,14 @@ export const data = [
                     },
                     {
                         name: 'Herbivore Calm Dead Sea Soaking Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/herbivore_Calm_deadsea_soaking_salt.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/herbivore_Calm_deadsea_soaking_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/herbivore_Calm_deadsea_soaking_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/herbivore_Calm_deadsea_soaking_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/herbivore_Calm_deadsea_soaking_salt.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Nomu Sea Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/nomu_atlantic_Sea_Salt_Grinder.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/nomu_atlantic_Sea_Salt_Grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nomu_atlantic_Sea_Salt_Grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nomu_atlantic_Sea_Salt_Grinder.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nomu_atlantic_Sea_Salt_Grinder.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -2095,21 +2095,21 @@ export const data = [
                     },
                     {
                         name: 'Tasteology Chili Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/tasteology_chili_salt.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/tasteology_chili_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tasteology_chili_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tasteology_chili_salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tasteology_chili_salt.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'The Spice House White Truffle Salt',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_spice_house_white_Truffle_Salt.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/the_spice_house_white_Truffle_Salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_spice_house_white_Truffle_Salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_spice_house_white_Truffle_Salt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_spice_house_white_Truffle_Salt.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Gula Aromatic Brown Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/gula_aromatic_brown_sugar.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/gula_aromatic_brown_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gula_aromatic_brown_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gula_aromatic_brown_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gula_aromatic_brown_sugar.jpg'],
                         price: 5,
                         available: 2,
                         type: 'pc(s)',
@@ -2117,14 +2117,14 @@ export const data = [
                     },
                     {
                         name: 'Sis White Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/sis_white_sugar.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/sis_white_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sis_white_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sis_white_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/sis_white_sugar.jpg'],
                         price: 5,
                         available: 2,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Tate Lyle White Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/tate_sugar.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/tate_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tate_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tate_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tate_sugar.jpg'],
                         price: 5,
                         available: 2,
                         type: 'pc(s)',
@@ -2132,21 +2132,21 @@ export const data = [
                     },
                     {
                         name: 'The Pantry Icing Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_pantry_icing_Sugar.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/the_pantry_icing_Sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_pantry_icing_Sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_pantry_icing_Sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_pantry_icing_Sugar.jpg'],
                         price: 8,
                         available: 2,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Whiteworths White Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/whitworths_sugar.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/whitworths_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/whitworths_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/whitworths_sugar.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/whitworths_sugar.jpg'],
                         price: 4,
                         available: 2,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Wholesome Organic Cane Sugar',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Wholesome_Organic_Cane_Sugar_2LB.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Wholesome_Organic_Cane_Sugar_2LB.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Wholesome_Organic_Cane_Sugar_2LB.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Wholesome_Organic_Cane_Sugar_2LB.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Wholesome_Organic_Cane_Sugar_2LB.jpg'],
                         price: 6,
                         available: 2,
                         type: 'pc(s)',
@@ -2172,49 +2172,49 @@ export const data = [
                 details: [
                     {
                         name: 'Everyday Essentials Wholemeal Bread',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Everyday_Essentials_Wholemeal_Bread.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Everyday_Essentials_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Everyday_Essentials_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Everyday_Essentials_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Everyday_Essentials_Wholemeal_Bread.jpg'],
                         price: 2.5,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'Farmhouse Multigrain Batch Loaf',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Farmhouse_Multigrain_Batch_loaf_purple_pack.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Farmhouse_Multigrain_Batch_loaf_purple_pack.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Farmhouse_Multigrain_Batch_loaf_purple_pack.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Farmhouse_Multigrain_Batch_loaf_purple_pack.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Farmhouse_Multigrain_Batch_loaf_purple_pack.jpg'],
                         price: 3,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'Roberts Seeded Bloomer',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/roberts_Seriously_Seeded_Bloomer.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/roberts_Seriously_Seeded_Bloomer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/roberts_Seriously_Seeded_Bloomer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/roberts_Seriously_Seeded_Bloomer.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/roberts_Seriously_Seeded_Bloomer.jpg'],
                         price: 4,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'The Village Bakery Low Fat Bread',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_low_fat.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_low_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_low_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_low_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_low_fat.jpg'],
                         price: 4,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'The Village Bakery Soft White Bread',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg'],
                         price: 4,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'The Village Bakery Soft Wholemeal Bread',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_Soft_Wholemeal_Bread.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_Soft_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_Soft_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_Soft_Wholemeal_Bread.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_Soft_Wholemeal_Bread.jpg'],
                         price: 4,
                         available: 1,
                         type: 'lb'
                     },
                     {
                         name: 'Warburtons Wholemeal Bread',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Warburtons_Wholemeal_mild_soft.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Warburtons_Wholemeal_mild_soft.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Warburtons_Wholemeal_mild_soft.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Warburtons_Wholemeal_mild_soft.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Warburtons_Wholemeal_mild_soft.jpg'],
                         price: 4,
                         available: 1,
                         type: 'lb'
@@ -2227,14 +2227,14 @@ export const data = [
                 details: [
                     {
                         name: 'Fibre 1 Crunchy Original',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/fibre1_crunchy_original.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/fibre1_crunchy_original.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/fibre1_crunchy_original.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/fibre1_crunchy_original.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/fibre1_crunchy_original.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Trix',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_first_ingredient_trix_wildberry_red_swirls.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_first_ingredient_trix_wildberry_red_swirls.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_first_ingredient_trix_wildberry_red_swirls.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_first_ingredient_trix_wildberry_red_swirls.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_first_ingredient_trix_wildberry_red_swirls.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -2242,7 +2242,7 @@ export const data = [
                     },
                     {
                         name: 'Fiber One',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_guaranted_fiber_one_honey_clusters.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_guaranted_fiber_one_honey_clusters.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_guaranted_fiber_one_honey_clusters.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_guaranted_fiber_one_honey_clusters.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/general_mills_with_whole_grain_guaranted_fiber_one_honey_clusters.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -2250,14 +2250,14 @@ export const data = [
                     },
                     {
                         name: 'Nestle Corn Flakes',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/nestle_made_with_whole_grain_corn_flakes.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/nestle_made_with_whole_grain_corn_flakes.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nestle_made_with_whole_grain_corn_flakes.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nestle_made_with_whole_grain_corn_flakes.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nestle_made_with_whole_grain_corn_flakes.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Post Honey Comb',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/post_honey_comb_cereal_12.5oz.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/post_honey_comb_cereal_12.5oz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/post_honey_comb_cereal_12.5oz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/post_honey_comb_cereal_12.5oz.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/post_honey_comb_cereal_12.5oz.jpg'],
                         price: 4,
                         available: 1,
                         type: 'pc(s)',
@@ -2270,28 +2270,28 @@ export const data = [
                 details: [
                     {
                         name: 'Beechworty Creamy Honey',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/beechworth_honey_bee_creamy_creamy_honey.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/beechworth_honey_bee_creamy_creamy_honey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/beechworth_honey_bee_creamy_creamy_honey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/beechworth_honey_bee_creamy_creamy_honey.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/beechworth_honey_bee_creamy_creamy_honey.jpg'],
                         price: 10,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: "Beekeeper's Raw Honey",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/beekeeper's_naturals_wildflower_raw_honey.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/beekeeper's_naturals_wildflower_raw_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/beekeeper's_naturals_wildflower_raw_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/beekeeper's_naturals_wildflower_raw_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/beekeeper's_naturals_wildflower_raw_honey.jpg"],
                         price: 12,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: "Coffee Blossom Honey",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/coffee_blossom_honey.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/coffee_blossom_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/coffee_blossom_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/coffee_blossom_honey.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/coffee_blossom_honey.jpg"],
                         price: 8,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: "Urban Bee Honey",
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/Urban_Bee_Honey_fireweed.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/Urban_Bee_Honey_fireweed.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/Urban_Bee_Honey_fireweed.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/Urban_Bee_Honey_fireweed.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/Urban_Bee_Honey_fireweed.jpg"],
                         price: 8,
                         available: 2,
                         type: 'lb'
@@ -2304,7 +2304,7 @@ export const data = [
                 details: [
                     {
                         name: 'Chivers Mixed Fruit Jam',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/chivers_mixed_fruit_jam.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/chivers_mixed_fruit_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chivers_mixed_fruit_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chivers_mixed_fruit_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/chivers_mixed_fruit_jam.jpg'],
                         price: 6,
                         available: 2,
                         type: 'lb',
@@ -2312,7 +2312,7 @@ export const data = [
                     },
                     {
                         name: 'Red Jacket Raspberry Jam',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_jacket_raspberry_jam.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/red_jacket_raspberry_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_jacket_raspberry_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_jacket_raspberry_jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_jacket_raspberry_jam.jpg'],
                         price: 6,
                         available: 2,
                         type: 'lb',
@@ -2320,7 +2320,7 @@ export const data = [
                     },
                     {
                         name: 'Gin Jam',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Gin_Jam.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Gin_Jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Gin_Jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Gin_Jam.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Gin_Jam.jpg'],
                         price: 6,
                         available: 2,
                         type: 'lb',
@@ -2333,7 +2333,7 @@ export const data = [
                 details: [
                     {
                         name: 'Best Foods Mayonnaise',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/best_foods_mayonnaise1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/best_foods_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/best_foods_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/best_foods_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/best_foods_mayonnaise1.jpg'],
                         price: 6,
                         available: 2,
                         type: 'lb',
@@ -2341,21 +2341,21 @@ export const data = [
                     },
                     {
                         name: 'Ballymaloe Mayonnaise',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Ballymaloe_Mayonnaise_240g.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Ballymaloe_Mayonnaise_240g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Ballymaloe_Mayonnaise_240g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Ballymaloe_Mayonnaise_240g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Ballymaloe_Mayonnaise_240g.jpg'],
                         price: 6,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Heinz Mayonnaise',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Heinz_Mayonnaise.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Heinz_Mayonnaise.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Heinz_Mayonnaise.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Heinz_Mayonnaise.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Heinz_Mayonnaise.jpg'],
                         price: 8,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Kraft Mayonnaise',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/kraft_mayonnaise1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/kraft_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kraft_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kraft_mayonnaise1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/kraft_mayonnaise1.jpg'],
                         price: 7,
                         available: 2,
                         type: 'lb'
@@ -2368,21 +2368,21 @@ export const data = [
                details: [
                     {
                         name: 'Fitwell Oat',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/FITWELL_OAT_ENRICH.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/FITWELL_OAT_ENRICH.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/FITWELL_OAT_ENRICH.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/FITWELL_OAT_ENRICH.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/FITWELL_OAT_ENRICH.jpg'],
                         price: 7,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Quaker Large Flake Oat',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/quaker_large_flake_oats.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/quaker_large_flake_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/quaker_large_flake_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/quaker_large_flake_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/quaker_large_flake_oats.jpg'],
                         price: 7,
                         available: 2,
                         type: 'lb'
                     },
                     {
                         name: 'Mornflake Jumbo Oat',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/mornflake_jumbo_oats.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/mornflake_jumbo_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mornflake_jumbo_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mornflake_jumbo_oats.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mornflake_jumbo_oats.jpg'],
                         price: 8,
                         available: 2,
                         type: 'lb',
@@ -2404,7 +2404,7 @@ export const data = [
                 details: [
                     {
                         name: 'Javarama Cafe Coffee',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/javarama_classic.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/javarama_classic.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/javarama_classic.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/javarama_classic.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/javarama_classic.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
@@ -2412,21 +2412,21 @@ export const data = [
                     },
                     {
                         name: 'Starbucks House Blend',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_house_blend.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_house_blend.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_house_blend.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_house_blend.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_house_blend.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Starbucks Vanilla Latte',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_vanilla_latte.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_vanilla_latte.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_vanilla_latte.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_vanilla_latte.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/starbucks_vanilla_latte.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Teeccino Herbal Coffee Alternative',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/teeccino_herbal_coffee_alternative_almond_amaretto.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/teeccino_herbal_coffee_alternative_almond_amaretto.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/teeccino_herbal_coffee_alternative_almond_amaretto.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/teeccino_herbal_coffee_alternative_almond_amaretto.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/teeccino_herbal_coffee_alternative_almond_amaretto.jpg'],
                         price: 5,
                         available: 2,
                         type: 'lb',
@@ -2439,28 +2439,28 @@ export const data = [
                 details: [
                     {
                         name: 'Dragon Energy',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dragon.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dragon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dragon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dragon.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dragon.jpg'],
                         price: 2,
                         available: 200,
                         type: 'ml'
                     },
                     {
                         name: 'Monster Energy',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Monster.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Monster.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Monster.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Monster.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Monster.jpg'],
                         price: 1.8,
                         available: 500,
                         type: 'ml'
                     },
                     {
                         name: 'Quake Energy',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Quake.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Quake.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Quake.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Quake.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Quake.jpg'],
                         price: 1.5,
                         available: 250,
                         type: 'ml'
                     },
                     {
                         name: 'Red Bull Energy Drink',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_bull.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/red_bull.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_bull.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_bull.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/red_bull.jpg'],
                         price: 2.2,
                         available: 200,
                         type: 'ml'
@@ -2473,35 +2473,35 @@ export const data = [
                 details: [
                     {
                         name: 'Iceland Tropical Juice Drink',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/iceland_tropical_juice_drink.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/iceland_tropical_juice_drink.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/iceland_tropical_juice_drink.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/iceland_tropical_juice_drink.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/iceland_tropical_juice_drink.jpg'],
                         price: 2.2,
                         available: 1,
                         type: 'ltr'
                     },
                     {
                         name: 'Minute Maid Orange',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/minute_maid_orange.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/minute_maid_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/minute_maid_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/minute_maid_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/minute_maid_orange.jpg'],
                         price: 2.8,
                         available: 500,
                         type: 'ml'
                     },
                     {
                         name: 'Nongmo Simply Apple',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/nongmo_simply_apple.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/nongmo_simply_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nongmo_simply_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nongmo_simply_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nongmo_simply_apple.jpg'],
                         price: 2.8,
                         available: 1,
                         type: 'ltr'
                     },
                     {
                         name: 'Tropicana Apple',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_apple.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_apple.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_apple.jpg'],
                         price: 2.4,
                         available: 1,
                         type: 'ltr'
                     },
                     {
                         name: 'Tropicana Orange',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_orange_no_pulp.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_orange_no_pulp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_orange_no_pulp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_orange_no_pulp.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/tropicana_orange_no_pulp.jpg'],
                         price: 2.5,
                         available: 1.5,
                         type: 'ltr',
@@ -2515,49 +2515,49 @@ export const data = [
                 details: [
                     {
                         name: '7 Up Can',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/7up_lemon_lime_355ml.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/7up_lemon_lime_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/7up_lemon_lime_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/7up_lemon_lime_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/7up_lemon_lime_355ml.jpg'],
                         price: 1,
                         available: 250,
                         type: 'ml'
                     },
                     {
                         name: 'Coca Cola Bottle',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Coca_Cola_200ml_Bottle.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Coca_Cola_200ml_Bottle.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Coca_Cola_200ml_Bottle.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Coca_Cola_200ml_Bottle.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Coca_Cola_200ml_Bottle.jpg'],
                         price: 1,
                         available: 200,
                         type: 'ml'
                     },
                     {
                         name: 'Coca Cola Zero',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/coca_cola_zero.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/coca_cola_zero.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coca_cola_zero.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coca_cola_zero.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coca_cola_zero.jpg'],
                         price: 1,
                         available: 300,
                         type: 'ml'
                     },
                     {
                         name: 'Diet Coke',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/coke_diet_355ml.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/coke_diet_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coke_diet_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coke_diet_355ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/coke_diet_355ml.jpg'],
                         price: 1.2,
                         available: 330,
                         type: 'ml'
                     },
                     {
                         name: 'Dr Pepper Diet',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dr_pepper_diet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dr_pepper_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dr_pepper_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dr_pepper_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dr_pepper_diet.jpg'],
                         price: 1.2,
                         available: 330,
                         type: 'ml'
                     },
                     {
                         name: 'Fanta',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Fanta_orange_can_250ml.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Fanta_orange_can_250ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Fanta_orange_can_250ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Fanta_orange_can_250ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Fanta_orange_can_250ml.jpg'],
                         price: 1.2,
                         available: 500,
                         type: 'ml'
                     },
                     {
                         name: 'Diet Mountain Dew',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/mountain_dew_diet.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/mountain_dew_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mountain_dew_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mountain_dew_diet.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/mountain_dew_diet.jpg'],
                         price: 1.85,
                         available: 330,
                         type: 'ml'
@@ -2570,14 +2570,14 @@ export const data = [
                details: [
                     {
                         name: 'Aunt Jemina Original Syrup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/aunt_jemima_original_syrup.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/aunt_jemima_original_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aunt_jemima_original_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aunt_jemima_original_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aunt_jemima_original_syrup.jpg'],
                         price: 5,
                         available: 500,
                         type: 'ml'
                     },
                     {
                         name: 'Canadian Maple Syrup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/canadian_maple_syrup.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/canadian_maple_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/canadian_maple_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/canadian_maple_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/canadian_maple_syrup.jpg'],
                         price: 5,
                         available: 500,
                         type: 'ml',
@@ -2585,14 +2585,14 @@ export const data = [
                     },
                     {
                         name: 'Gatorate Thirst Quencher Powder Drink',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/gatorade_thirst_quencher_powder_packs_orange.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/gatorade_thirst_quencher_powder_packs_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gatorade_thirst_quencher_powder_packs_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gatorade_thirst_quencher_powder_packs_orange.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gatorade_thirst_quencher_powder_packs_orange.jpg'],
                         price: 5,
                         available: 250,
                         type: 'ml',
                     },
                     {
                         name: 'Horlicks',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/horlicks_classic_malt.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/horlicks_classic_malt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/horlicks_classic_malt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/horlicks_classic_malt.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/horlicks_classic_malt.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
@@ -2600,7 +2600,7 @@ export const data = [
                     },
                     {
                         name: 'Servivita Chocolate Syrup',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/servivita_chocolate_syrup.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/servivita_chocolate_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/servivita_chocolate_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/servivita_chocolate_syrup.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/servivita_chocolate_syrup.jpg'],
                         price: 5,
                         available: 500,
                         type: 'ml',
@@ -2613,7 +2613,7 @@ export const data = [
                 details: [
                     {
                         name: 'Ava Juice Macha Tea',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/ava_juice_Detox_Matcha.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/ava_juice_Detox_Matcha.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/ava_juice_Detox_Matcha.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/ava_juice_Detox_Matcha.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/ava_juice_Detox_Matcha.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
@@ -2621,7 +2621,7 @@ export const data = [
                     },
                     {
                         name: 'Boh Instant Tea Mix',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/boh_3in1_instant_tea_mix.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/boh_3in1_instant_tea_mix.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/boh_3in1_instant_tea_mix.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/boh_3in1_instant_tea_mix.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/boh_3in1_instant_tea_mix.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
@@ -2629,21 +2629,21 @@ export const data = [
                     },
                     {
                         name: 'Crystal Light Lemon Iced Tea',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/crystal_light_lemon_iced_tea.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/crystal_light_lemon_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crystal_light_lemon_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crystal_light_lemon_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/crystal_light_lemon_iced_tea.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
                     },
                     {
                         name: 'Imperial Long Jing Tea',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/imperial_tea_longjing_tea.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/imperial_tea_longjing_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/imperial_tea_longjing_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/imperial_tea_longjing_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/imperial_tea_longjing_tea.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
                     },
                     {
                         name: 'Luzianne Iced Tea',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/luzianne_iced_tea.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/luzianne_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/luzianne_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/luzianne_iced_tea.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/luzianne_iced_tea.jpg'],
                         price: 5,
                         available: 0.5,
                         type: 'lb',
@@ -2656,35 +2656,35 @@ export const data = [
                 details: [
                     {
                         name: 'Elkali Natural Alkalike Srping Water',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Elkali_natural_alkaline_spring_water.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Elkali_natural_alkaline_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Elkali_natural_alkaline_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Elkali_natural_alkaline_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Elkali_natural_alkaline_spring_water.jpg'],
                         price: 2,
                         available: 5,
                         type: 'ltr'
                     },
                     {
                         name: 'Glaceau Smart Water',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/glaceau_smart_water.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/glaceau_smart_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glaceau_smart_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glaceau_smart_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glaceau_smart_water.jpg'],
                         price: 2.5,
                         available: 2,
                         type: 'ltr'
                     },
                     {
                         name: 'Glastonbury Still Spring Water',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/glastonbury_still_spring_water.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/glastonbury_still_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glastonbury_still_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glastonbury_still_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/glastonbury_still_spring_water.jpg'],
                         price: 2.5,
                         available: 2,
                         type: 'ltr'
                     },
                     {
                         name: 'Poland Spring Water',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/poland_spring_natural_spring_water.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/poland_spring_natural_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/poland_spring_natural_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/poland_spring_natural_spring_water.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/poland_spring_natural_spring_water.jpg'],
                         price: 2,
                         available: 2,
                         type: 'ltr'
                     },
                     {
                         name: 'Westfield Pure Spring Water',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/westfield_pure_spring_water_300ml.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/westfield_pure_spring_water_300ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/westfield_pure_spring_water_300ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/westfield_pure_spring_water_300ml.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/westfield_pure_spring_water_300ml.jpg'],
                         price: 2,
                         available: 2,
                         type: 'ltr'
@@ -2705,14 +2705,14 @@ export const data = [
                 details: [
                      {
                         name: 'Attitude Bubble Bath',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/attitude_night_bubble_bath.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/attitude_night_bubble_bath.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/attitude_night_bubble_bath.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/attitude_night_bubble_bath.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/attitude_night_bubble_bath.jpg'],
                         price: 20,
                         available: 200,
                         type: 'ml'
                     },
                     {
                         name: 'Aveeno Baby Shampoo',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/aveeno_baby_shampoo.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/aveeno_baby_shampoo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aveeno_baby_shampoo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aveeno_baby_shampoo.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/aveeno_baby_shampoo.jpg'],
                         price: 20,
                         available: 200,
                         type: 'ml',
@@ -2720,7 +2720,7 @@ export const data = [
                     },
                     {
                         name: 'Way Moisturizing Hair Bath',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/moisturizing_hair_bath_g.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/moisturizing_hair_bath_g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/moisturizing_hair_bath_g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/moisturizing_hair_bath_g.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/moisturizing_hair_bath_g.jpg'],
                         price: 20,
                         available: 200,
                         type: 'ml',
@@ -2728,14 +2728,14 @@ export const data = [
                     },
                     {
                         name: 'Neutrogena Body Oil',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/neutrogena_Body_Oil.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/neutrogena_Body_Oil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/neutrogena_Body_Oil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/neutrogena_Body_Oil.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/neutrogena_Body_Oil.jpg'],
                         price: 20,
                         available: 200,
                         type: 'ml',
                     },
                     {
                         name: 'Eo Body Lotion',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/eo_body_lotion.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/eo_body_lotion.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/eo_body_lotion.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/eo_body_lotion.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/eo_body_lotion.jpg'],
                         price: 20,
                         available: 200,
                         type: 'ml',
@@ -2749,14 +2749,14 @@ export const data = [
                 details: [
                     {
                         name: 'Gnc Aloe Vera Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_aloe_vera_moisturizing_cream.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_aloe_vera_moisturizing_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_aloe_vera_moisturizing_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_aloe_vera_moisturizing_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_aloe_vera_moisturizing_cream.jpg'],
                         price: 20,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Loreal Age Perfect Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/loreal_paris_age_perfect.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/loreal_paris_age_perfect.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/loreal_paris_age_perfect.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/loreal_paris_age_perfect.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/loreal_paris_age_perfect.jpg'],
                         price: 20,
                         available: 2,
                         type: 'lb',
@@ -2764,14 +2764,14 @@ export const data = [
                     },
                     {
                         name: 'Wasp Shiseido Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/waso_shiseido_mega_hydrating_cream.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/waso_shiseido_mega_hydrating_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/waso_shiseido_mega_hydrating_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/waso_shiseido_mega_hydrating_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/waso_shiseido_mega_hydrating_cream.jpg'],
                         price: 20,
                         available: 2,
                         type: 'lb',
                     },
                     {
                         name: 'Gnc Women S Progesterone Cream',
-                        img: "https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_women's_progesterone_cream.jpg",
+                        img: ["https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_women's_progesterone_cream.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_women's_progesterone_cream.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_women's_progesterone_cream.jpg", "https://s3.amazonaws.com/redqteam.com/pickbazar/gnc_women's_progesterone_cream.jpg"],
                         price: 20,
                         available: 2,
                         type: 'lb',
@@ -2789,14 +2789,14 @@ export const data = [
                 details: [
                     {
                         name: 'Face Replublic Sun Gel',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/face_republic_Sun_gel.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/face_republic_Sun_gel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/face_republic_Sun_gel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/face_republic_Sun_gel.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/face_republic_Sun_gel.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Frei Ol',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/frei_ol_urea2in1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/frei_ol_urea2in1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/frei_ol_urea2in1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/frei_ol_urea2in1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/frei_ol_urea2in1.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)',
@@ -2804,14 +2804,14 @@ export const data = [
                     },
                     {
                         name: 'Garnier Pure Active',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/garnier_pure_active.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/garnier_pure_active.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/garnier_pure_active.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/garnier_pure_active.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/garnier_pure_active.jpg'],
                         price: 2,
                         available: 1,
                         type: 'pc(s)',
                     },
                     {
                         name: 'Nuace Men Facial Wash',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/nuage_men_facial_wash.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/nuage_men_facial_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nuage_men_facial_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nuage_men_facial_wash.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nuage_men_facial_wash.jpg'],
                         price: 3,
                         available: 1,
                         type: 'pc(s)',
@@ -2824,21 +2824,21 @@ export const data = [
                 details: [
                     {
                         name: 'Absolute Plus Meat Dental Set',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/absolute_plus_Meat_Dental_Set_.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/absolute_plus_Meat_Dental_Set_.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/absolute_plus_Meat_Dental_Set_.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/absolute_plus_Meat_Dental_Set_.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/absolute_plus_Meat_Dental_Set_.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Dentek Oral Care Kit',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/dentek_professional_oral_care_kit1.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/dentek_professional_oral_care_kit1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dentek_professional_oral_care_kit1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dentek_professional_oral_care_kit1.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/dentek_professional_oral_care_kit1.jpg'],
                         price: 10,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Gum Oral Care Cleaning Kit',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/gum_oral_care_cleaning_kit.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/gum_oral_care_cleaning_kit.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gum_oral_care_cleaning_kit.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gum_oral_care_cleaning_kit.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/gum_oral_care_cleaning_kit.jpg'],
                         price: 15,
                         available: 1,
                         type: 'pc(s)'
@@ -2851,42 +2851,42 @@ export const data = [
                 details: [
                     {
                         name: 'Duke Cannon Shaving Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Duke_Cannon_SHAVE_CREAM.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Duke_Cannon_SHAVE_CREAM.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Duke_Cannon_SHAVE_CREAM.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Duke_Cannon_SHAVE_CREAM.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Duke_Cannon_SHAVE_CREAM.jpg'],
                         price: 5,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Nair Hai Removal Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/nair_hair_remover.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/nair_hair_remover.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nair_hair_remover.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nair_hair_remover.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/nair_hair_remover.jpg'],
                         price: 8,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Longmarket Barber Aftershave Balm',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/Longmarket_Barber_Aftershave_Balm.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/Longmarket_Barber_Aftershave_Balm.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Longmarket_Barber_Aftershave_Balm.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Longmarket_Barber_Aftershave_Balm.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/Longmarket_Barber_Aftershave_Balm.jpg'],
                         price: 6,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Espa Men Dual Action',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/espa_men_dual_action_shave_mud.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/espa_men_dual_action_shave_mud.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/espa_men_dual_action_shave_mud.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/espa_men_dual_action_shave_mud.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/espa_men_dual_action_shave_mud.jpg'],
                         price: 6,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Human Nature Shaving Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/human_nature_shaving_cream.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/human_nature_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/human_nature_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/human_nature_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/human_nature_shaving_cream.jpg'],
                         price: 6,
                         available: 1,
                         type: 'pc(s)'
                     },
                     {
                         name: 'Pacific Natural Shaving Cream',
-                        img: 'https://s3.amazonaws.com/redqteam.com/pickbazar/pacific_shaving_co._natural_shaving_cream.jpg',
+                        img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/pacific_shaving_co._natural_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pacific_shaving_co._natural_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pacific_shaving_co._natural_shaving_cream.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/pacific_shaving_co._natural_shaving_cream.jpg'],
                         price: 6,
                         available: 1,
                         type: 'pc(s)'

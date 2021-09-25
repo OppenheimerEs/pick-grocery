@@ -11,7 +11,7 @@ import {BiArrowBack} from 'react-icons/bi'
 
 
 function Navbar() {
-    const {setTitle, mainFlag, mainLang, setMainFlag, setMainLang, searchInput, setSubtitle, setSearchInput, setSearchButton, offer, setOffer, help, setHelp, join, setJoin, isThere, setLoad, setCart} = useGlobalContext();
+    const {setTitle, mainFlag, mainLang, setMainFlag, setMainLang, searchInput, setSubtitle, setSearchInput, setSearchButton, offer, setOffer, help, setHelp, join, setJoin, isThere, setLoad, setCart, filterList} = useGlobalContext();
 
     const [toggleLanguages, setToggleLanguages] = useState(false);
 
@@ -93,7 +93,7 @@ function Navbar() {
                 <form className='hi'>
                     <div className="form-control">
                         <BiSearch className='icon' />
-                        <input type="text" placeholder={searchInput} />
+                        <input type="text" placeholder={searchInput} onChange={(e) => filterList(e.target.value.toLowerCase())} />
                     </div>
                 </form>
             )}
@@ -151,7 +151,7 @@ function Navbar() {
            <div className="top-search-content">
                 <BiArrowBack className='icon' onClick={() => setToggleTopSearch(!toggleTopSearch)} />
                 <span className='title'>Grocery</span>
-                <input type="text"  placeholder={searchInput} />
+                <input type="text" placeholder={searchInput} onChange={(e) => filterList(e.target.value.toLowerCase())} />
                 <BiSearch className='icon' />
            </div>
         </section>

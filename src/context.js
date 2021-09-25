@@ -28,6 +28,7 @@ function AppProvider({children}) {
 
     // products
     const [products, setProducts] = useState(data);
+    
     const [preciseProduct, setPreciseProduct] = useState([]);
 
     const [number, setNumber]  = useState(0);
@@ -41,6 +42,18 @@ function AppProvider({children}) {
     const [closeSmall, setCloseSmall] = useState(false);
 
     const [filterInfo, setFilterInfo] = useState('No category was selected') 
+
+    const [searchedProduct, setSearchedProduct] = useState('')
+
+    let mainProductsList = []
+ 
+    data.map(product => {
+        product.details.map(detail => {
+            detail.details.map(singleitem => {
+                mainProductsList.push(singleitem)
+            })
+        })
+    })
 
     useEffect(() => {
         products.map(product => {
@@ -59,6 +72,11 @@ function AppProvider({children}) {
         setPreciseProduct(tempArr);
         setMainPage(xy)
     }, [num])
+
+    const filterList = (x) => {
+        let filteredList = mainProductsList.filter(item => item.name.toLowerCase().includes(x))
+        setPreciseProduct(filteredList)
+    }
 
     return (
         <AppContext.Provider value={{
@@ -100,7 +118,8 @@ function AppProvider({children}) {
             closeSmall,
             setCloseSmall,
             filterInfo,
-            setFilterInfo
+            setFilterInfo,
+            filterList,
         }}>
             {children}
         </AppContext.Provider>

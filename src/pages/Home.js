@@ -7,14 +7,14 @@ import {useGlobalContext} from '../context'
 import Products from '../components/Products'
 
 function Home() {
-    const {title, subtitle, searchInput, searchButton, isThere, setIsThere, stickList, closeSmall, setCloseSmall, filterInfo} = useGlobalContext();
+    const {title, subtitle, searchInput, searchButton, isThere, setIsThere, stickList, closeSmall, setCloseSmall, filterInfo, filterList} = useGlobalContext();
     const x = useRef(null);
     const y = useRef(null);
     const z = useRef(null);
 
     useEffect(() => {
         window.onscroll = () => {
-        if (window.pageYOffset > (z.current.offsetTop+z.current.offsetHeight)) {
+        if (window.pageYOffset > (z.current.offsetTop+z.current.offsetHeight)-180) {
            setIsThere(true);
         } else {
             setIsThere(false);
@@ -34,7 +34,7 @@ function Home() {
                 <form>
                     <div className="form-control">
                         <span className="title">Grocery</span>
-                        <input type="text" placeholder={searchInput} />
+                        <input type="text" placeholder={searchInput} onChange={(e) => filterList(e.target.value.toLowerCase())} />
                         <button type='submit'><BiSearch className='icon' />
                         <p>{searchButton}</p></button>
                     </div>
@@ -56,7 +56,7 @@ function Home() {
                         <div className="icon">
                             <BiSearch />
                         </div>
-                        <input type="text" placeholder='Search your products from here' />
+                        <input type="text" placeholder='Search your products from here' onChange={(e) => filterList(e.target.value.toLowerCase())} />
                     </div>
                 </form>
                 <div className="filter-info">
