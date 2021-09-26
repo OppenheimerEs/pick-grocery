@@ -22,6 +22,7 @@ function AppProvider({children}) {
     const [isThere, setIsThere] = useState(false)
 
     const [mainPage, setMainPage] = useState([]);
+
     const xy = [];
 
     let tempArr = []
@@ -43,7 +44,7 @@ function AppProvider({children}) {
 
     const [filterInfo, setFilterInfo] = useState('No category was selected') 
 
-    const [searchedProduct, setSearchedProduct] = useState('')
+    const [yy, setYY] = useState([])
 
     let mainProductsList = []
  
@@ -69,13 +70,22 @@ function AppProvider({children}) {
     }, [num])
 
     useEffect(() => {
-        setPreciseProduct(tempArr);
+        setPreciseProduct(tempArr)
         setMainPage(xy)
+        setYY(tempArr)
     }, [num])
 
     const filterList = (x) => {
+        
         let filteredList = mainProductsList.filter(item => item.name.toLowerCase().includes(x))
-        setPreciseProduct(filteredList)
+        if (x.length > 0) {
+            setPreciseProduct(filteredList)
+        } else if (x.length === 0) {
+            // setNum(20)
+            console.log(num);
+            setPreciseProduct(yy)
+            console.log(yy);
+        }
     }
 
     return (
