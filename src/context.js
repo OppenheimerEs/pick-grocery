@@ -82,6 +82,7 @@ function AppProvider({children}) {
             setPreciseProduct(filteredList)
         } else if (x.length === 0) {
             // setNum(20)
+            setShowMore(true)
             console.log(num);
             setPreciseProduct(yy)
             console.log(yy);

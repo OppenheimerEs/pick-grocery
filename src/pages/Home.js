@@ -11,6 +11,7 @@ function Home() {
     const x = useRef(null);
     const y = useRef(null);
     const z = useRef(null);
+    const phoneNav = useRef(null);
 
     useEffect(() => {
         window.onscroll = () => {
@@ -59,7 +60,7 @@ function Home() {
                         <input type="text" placeholder='Search your products from here' onChange={(e) => filterList(e.target.value.toLowerCase())} />
                     </div>
                 </form>
-                <div className="filter-info">
+                <div className="filter-info" ref={phoneNav}>
                     <p>{filterInfo}</p>
                     <span onClick={() => setCloseSmall(true)}>Filter</span>
                 </div>

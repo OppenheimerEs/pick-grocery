@@ -1,7 +1,7 @@
 import {GiCherry} from 'react-icons/gi'
 import {IoFishOutline} from 'react-icons/io5'
 import {IoFastFoodOutline} from 'react-icons/io5'
-import {GiHollowCat} from 'react-icons/gi'
+import {IoPawOutline} from 'react-icons/io5'
 import {AiOutlineClear} from 'react-icons/ai'
 import {BiCoffeeTogo} from 'react-icons/bi'
 import {CgSmartHomeCooker} from 'react-icons/cg'
@@ -871,7 +871,7 @@ export const data = [
     {
         id: 4,
         type: 'Pet Care',
-        icon: <GiHollowCat />,
+        icon: <IoPawOutline />,
         details: [
             {
                 id: 13,
