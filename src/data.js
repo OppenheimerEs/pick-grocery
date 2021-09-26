@@ -1878,14 +1878,14 @@ export const data = [
                         type: 'lb',
                     },
                     {
-                        name: 'Chonani',
+                        name: 'Chobani',
                         img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_plain_non_fat.jpg'],
                         price: 4,
                         available: 2,
                         type: 'lb',
                     },
                     {
-                        name: 'Chonani Vanilla Blended',
+                        name: 'Chobani Vanilla Blended',
                         img: ['https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg', 'https://s3.amazonaws.com/redqteam.com/pickbazar/yogourt_chobani_vanilla.jpg'],
                         price: 4,
                         available: 2,
