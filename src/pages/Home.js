@@ -5,6 +5,7 @@ import homeBg from '../images/homeBg.png'
 import {BiSearch} from 'react-icons/bi'
 import {useGlobalContext} from '../context'
 import Products from '../components/Products'
+import CartSlider from '../components/CartSlider'
 
 function Home() {
     const {title, subtitle, searchInput, searchButton, isThere, setIsThere, stickList, closeSmall, setCloseSmall, filterInfo, filterList} = useGlobalContext();
@@ -70,6 +71,8 @@ function Home() {
         <div ref={x}>
             <Products/>
         </div>
+
+        <CartSlider />
         </>
     )
 }

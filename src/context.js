@@ -1,10 +1,47 @@
-import React, { useState, useEffect, useRef, useContext} from 'react'
+import React, { useState, useEffect, useRef, useContext, useReducer} from 'react'
 import usa from './images/us.svg'
 import {data} from './data'
+import reducer from './reducer'
 
 const AppContext = React.createContext();
 
+const initialState = {
+    prods: [],
+    total: 0,
+}
+
 function AppProvider({children}) {
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+    const [amount, setAmount] = useState(state.prods.length)
+
+    useEffect(() => {
+        setAmount(state.prods.length)
+    }, [state.prods])
+
+    const addItem = (id) => {
+        dispatch({type: 'ADD_ITEM', payload: id})
+    }
+
+    const removeItem = (id) => {
+        dispatch({type: 'REMOVE_ITEM', payload: id})
+    }
+
+    const getTotal = () => {
+        dispatch({type: 'GET_TOTAL'})
+    }
+
+    const increase = (id) => {
+        dispatch({type: 'INCREASE', payload: id})
+    }
+
+    const decrease = (id) => {
+        dispatch({type: 'DECREASE', payload: id})
+    }
+
+    useEffect(() => {
+        getTotal()
+    }, [state.prods])
 
     // translation
     const [title, setTitle] = useState('Join Groceries Delivered in 90 Minutes')
@@ -47,6 +84,8 @@ function AppProvider({children}) {
     const [yy, setYY] = useState([])
 
     let mainProductsList = []
+
+    const [cartSlider, setCartSlider] = useState(false)
  
     data.map(product => {
         product.details.map(detail => {
@@ -131,6 +170,14 @@ function AppProvider({children}) {
             filterInfo,
             setFilterInfo,
             filterList,
+            cartSlider,
+            setCartSlider,
+            addItem,
+            removeItem,
+            increase,
+            decrease,
+            amount,
+            ...state
         }}>
             {children}
         </AppContext.Provider>

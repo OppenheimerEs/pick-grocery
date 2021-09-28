@@ -5,9 +5,9 @@ import {IoCloseOutline} from 'react-icons/io5'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
 
-function SingleProduct({img, name, desc, available, price, type, deal, promotion}) {
+function SingleProduct({img, name, desc, available, price, type, deal, promotion, id}) {
 
-    const {cart} = useGlobalContext();
+    const {cart, addItem} = useGlobalContext();
 
     const [productInfo, setProductInfo] = useState(false);
 
@@ -21,6 +21,10 @@ function SingleProduct({img, name, desc, available, price, type, deal, promotion
             setIndex(0)
         }
     }, [index, img])
+
+    const handleAddToCart= () => {
+        addItem(id)
+    }
 
     return (
         <div>
@@ -111,7 +115,7 @@ function SingleProduct({img, name, desc, available, price, type, deal, promotion
                          </>
                      )}
              </div>
-                <button>
+                <button onClick={handleAddToCart}>
                      <ImCart className='icon' />
                      <p>{cart}</p>
                 </button>
