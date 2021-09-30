@@ -4,7 +4,6 @@ import {ImCart} from 'react-icons/im'
 import {IoCloseOutline} from 'react-icons/io5'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
-import { useRef } from 'react/cjs/react.development';
 
 function SingleProduct({img, name, desc, available, price, type, deal, promotion, id}) {
 
