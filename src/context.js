@@ -5,8 +5,17 @@ import reducer from './reducer'
 
 const AppContext = React.createContext();
 
+const getLocalStorage = () => {
+    let list = localStorage.getItem('list');
+    if (list) {
+        return JSON.parse(localStorage.getItem('list'));
+    } else {
+        return [];
+    }
+}
+
 const initialState = {
-    prods: [],
+    prods: getLocalStorage(),
     total: 0,
 }
 
@@ -14,6 +23,10 @@ function AppProvider({children}) {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     const [amount, setAmount] = useState(state.prods.length)
+
+      useEffect(() => {
+        localStorage.setItem('list', JSON.stringify(state.prods));
+      }, [state.prods])
 
     useEffect(() => {
         setAmount(state.prods.length)

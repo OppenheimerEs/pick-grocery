@@ -5,24 +5,34 @@ import {useGlobalContext} from '../context'
 
 function CartSlider() {
     const {cartSlider, setCartSlider, prods, amount, removeItem, total, increase, decrease} = useGlobalContext()
-
+    let cart = useRef(null)
     
+    useEffect(() => {
+        if (cartSlider) {
+            cart.current.style.transform = 'translateX(0)'
+            cart.current.style.transition = 'transform 0.3s ease-in-out'
+        } else {
+            cart.current.style.transform = 'translateX(100%)'
+            cart.current.style.transition = 'transform 0.3s ease-in-out'
+        }
+    }, [cartSlider])
+
     return (
         <section className='cart-slider'>
             <div className='toggle-cart' onClick={() => setCartSlider(true)}>
                 <div className='item'>
                     <RiShoppingBag3Fill className='icon' />
-                    <p>{amount} Item</p>
+                    <p>{amount} {amount === 1 ? 'Item' : 'Items'}</p>
                 </div>
                 <span>${total}</span>
             </div>
 
-            {cartSlider && (
-                <div className='cart'>
+            {/* {cartSlider && ( */}
+                <div className='cart' ref={cart}>
                     <div className='header'>
                         <div className='item'>
                             <RiShoppingBag3Fill className='icon' />
-                            <p>{amount} Item</p>
+                            <p>{amount} {amount === 1 ? 'Item' : 'Items'}</p>
                         </div>
                         <IoCloseOutline className='close-btn' onClick={() => setCartSlider(false)} />
                     </div>
@@ -52,10 +62,10 @@ function CartSlider() {
                                         <p className='amount'>{item.amount} x {item.available} {item.type}</p>
                                     </div>
                                     {item.deal && (
-                                        <span>${item.amount * (item.price * (100 - item.deal)) / 100}</span>
+                                        <span>${parseFloat((item.amount * (item.price * (100 - item.deal)) / 100).toFixed(2))}</span>
                                     )}
                                     {!item.deal && (
-                                        <span>${item.amount * item.price}</span>
+                                        <span>${parseFloat((item.amount * item.price).toFixed(2))}</span>
                                     )}
                                     <div className='close-btn-container'>
                                         <IoCloseOutline onClick={() => removeItem(item.id)} />
@@ -64,8 +74,12 @@ function CartSlider() {
                             )
                         })}
                     </div>
+                    <div className='checkout'>
+                        <p>Checkout</p>
+                        <span className='total'>${total}</span>
+                    </div>
                 </div>
-            )}
+            {/* )} */}
 
         </section>
     )

@@ -37,6 +37,21 @@ body {
   margin-left: 0.5rem;
 }
 
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ddeedd;
+  border: 1px solid rgba(0, 158, 127, 0.4);
+  color: #009e7f;
+  font-size: 15px;
+  z-index: 1000;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  -webkit-transform: translateY(200%);
+          transform: translateY(200%);
+}
+
 .primary-btn,
 .secondary-btn {
   background: #009e7f;
@@ -785,7 +800,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 3;
+  z-index: 4;
   border-radius: 0;
   cursor: default;
 }
@@ -1043,13 +1058,13 @@ body {
 .products .products-content-cards > div .price-cart button {
   outline: none;
   border: 1px solid #eee;
-  border-radius: 16px;
+  border-radius: 10px;
   font-weight: 600;
   padding: 0.5rem 1.2rem;
   background: #fff;
   color: #009e7f;
-  -webkit-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1057,6 +1072,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.products .products-content-cards > div .price-cart button.clicked-prod {
+  background: #009e7f;
+  color: #fff;
+}
+
+.products .products-content-cards > div .price-cart button.clicked-prod p {
+  color: #fff !important;
 }
 
 .products .products-content-cards > div .price-cart button p {
@@ -1187,6 +1211,41 @@ body {
           transform: translate(-50%, -50%);
 }
 
+.cart-slider .cart .checkout {
+  background: #009e7f;
+  position: absolute;
+  bottom: 1rem;
+  width: 95%;
+  left: 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.cart-slider .cart .checkout p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+
+.cart-slider .cart .checkout .total {
+  padding: 0.4rem 1.4rem;
+  background: #fff;
+  color: #009e7f;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
 .cart-slider .cart .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1205,6 +1264,12 @@ body {
   cursor: pointer;
   font-size: 19px;
   color: #999;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.cart-slider .cart .header .close-btn:hover {
+  color: rgba(255, 0, 0, 0.7);
 }
 
 .cart-slider .cart .header .item {
@@ -1225,6 +1290,25 @@ body {
 .cart-slider .cart .header .item .icon {
   font-size: 1.5rem;
   margin-right: 6px;
+}
+
+.cart-slider .selected-prods {
+  overflow-y: auto;
+  height: 80%;
+}
+
+.cart-slider .selected-prods::-webkit-scrollbar {
+  width: 4px;
+}
+
+.cart-slider .selected-prods::-webkit-scrollbar-track {
+  background: #ECEEEC;
+  width: 1px;
+}
+
+.cart-slider .selected-prods::-webkit-scrollbar-thumb {
+  background: #CCCAC4;
+  border-radius: 6px;
 }
 
 .cart-slider .selected-prods article {
@@ -1250,6 +1334,16 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   cursor: pointer;
+}
+
+.cart-slider .selected-prods article .close-btn-container > * {
+  color: #999;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.cart-slider .selected-prods article .close-btn-container > *:hover {
+  color: rgba(255, 0, 0, 0.7);
 }
 
 .cart-slider .selected-prods article .info .name {
@@ -1309,6 +1403,49 @@ body {
 }
 
 .cart-slider .selected-prods article img {
+  width: 100%;
+}
+
+.error-page {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.error-page > div h1 {
+  font-size: 8rem;
+  color: #009e7f;
+}
+
+.error-page > div h4 {
+  font-size: 1.5rem;
+}
+
+.error-page > div h4 code {
+  display: inline-block;
+  color: #009e7f;
+}
+
+.help {
+  height: 100vh;
+  position: relative;
+}
+
+.help .abs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #009e7f;
+  text-align: center;
+  color: #fff;
   width: 100%;
 }
 

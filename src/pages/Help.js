@@ -1,8 +1,8 @@
 function Help() {
     return (
-        <div>
-            
-        </div>
+        <section className='help'>
+            <div className='abs'>help</div>
+        </section>
     )
 }
 
