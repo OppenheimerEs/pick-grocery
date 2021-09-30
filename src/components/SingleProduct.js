@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import {useGlobalContext} from '../context'
 import {ImCart} from 'react-icons/im'
 import {IoCloseOutline} from 'react-icons/io5'
