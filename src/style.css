@@ -1638,5 +1638,8 @@ body {
   .products .products-content-cards > div .product-info .product-info-content .content .description {
     margin-top: 1rem;
   }
+  .cart-slider .cart {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
